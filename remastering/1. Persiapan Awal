@@ -1,0 +1,8 @@
+1. Install UCK (Ubuntu Customization Kit)
+Sebagai aplikasi untuk membongkar file .iso
+   - sudo apt install uck
+
+2. Download sistem operasi
+Ada dua opsi pilihan yakni dengan menggunakan Ubuntu Mini Remix atau langsung menggunakan Xubuntu
+   - http://www.ubuntu-mini-remix.org/
+   - http://cdimage.ubuntu.com/xubuntu/releases/xenial/release/

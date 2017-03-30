@@ -1,0 +1,18 @@
+1. Buka terminal dan ketikkan perintah berikut
+   ~$ sudo modprobe squashfs
+   ~$ sudo uck-remaster-unpack-iso (sesuaikan dengan file .iso)
+   ~$ sudo uck-remaster-unpack-rootfs
+   ~$ sudo uck-remaster-unpack-initrd
+   ~$ sudo uck-remaster-chroot-rootfs
+
+Jika semua langkah diatas tidak terjadi error, maka secara otomatis Anda sudah memasuki file .iso yang telah dibongkar menggunakan UCK.
+
+Dan disitu Anda memaketkan Aplikasi, Edit File Konfigurasi, dll. Setelah dianggap Cukup melakukan Remastering, proses selanjutnya yakni memaketkan kembali iso tersebut.
+
+Ikuti langkah berikut (pastikan Anda belum meng-close terminal)
+
+  ~$ sudo uck-remaster-pack-initrd
+  ~$ sudo uck-remaster-pack-rootfs
+  ~$ sudo uck-remaster-pack-iso (DesaOS-draft-01.iso)
+
+2. Proses remastering Selesai
