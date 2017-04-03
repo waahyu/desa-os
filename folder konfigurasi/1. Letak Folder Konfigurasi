@@ -1,0 +1,9 @@
+1. Folder Backdrops (Mengganti Wallpaper Default XFCE) - /usr/share/xfce4/
+
+2. Folder glib-2.0 (Script Setting Default Wallpaper) - /usr/share/glib2.0/schemas/ *Hanya ubah di 4 file .txt
+
+3. Folder pixmaps (Mengganti Icon Menu) - /usr/share/pixmaps *Ganti dengan logo menu DesaOS
+
+4. Folder plymouth (Mengganti teme playmouth/booting) - /lib/plymouth/themes *Copy tema plymotuh DesaOS ke folder tersebut
+
+5. Folder ubiquity dan ubiquity-slideshow (Setting aplikasi ubiquity/installer) - /usr/share/ *Edit script konfigurasi dan gambar 
